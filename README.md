@@ -1,7 +1,7 @@
 # CODEY IN THE HOUSE
 ### @explicitHints true
 
-
+## Codey in the House @showdialog
 ![](https://images.squarespace-cdn.com/content/v1/5f6b91ce8da8241b19e5660a/1b06e9f0-8e10-42f7-983b-d43fa0bcb1cc/Bellingham+and+Skagit+Logo+Website.png?format=1500w)
 OH NO! Codey deleted his programming and needs help putting it back together! The only problem ishe lost his memory and can't remember where to find the blocks he needs!
 
