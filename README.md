@@ -182,12 +182,6 @@ controller.moveSprite(codey, 50, 0)
 codey.say(":)", 1000)
 ```
 
-```template
-let mySprite: Sprite = sprites.create(sprites.food.smallTaco, SpriteKind.Player)
-mySprite.setPosition(80, 80)
-controller.moveSprite(mySprite, 50, 0)
-mySprite.say(":)", 1000)
-```
 
 ---
 
@@ -266,7 +260,7 @@ foodSprite.setPosition(120, 30)
 ```
 
 ## COME BACK CODEY!
-You probably noticed that Codey like to run away where we can't see him. If we lose Codey then the Coding Club will have to close!
+You probably noticed that Codey likes to run away where we can't see him. If we lose Codey then the Coding Club will have to close!
 Let's fix this!
 
 ---
@@ -275,7 +269,7 @@ Let's fix this!
 ``||sprites:set [mySprite] stay in screen <ON>||``<br/>
 block.
 1.   In this new block, click on the down arrow to change the
-name of the sprite to your hero sprite.
+name of the sprite to Codey.
 1.   Wait for the simulator to restart.
 1.   Move the hero sprite around the screen. <br/>It stays on the screen now!
 
