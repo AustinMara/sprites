@@ -292,5 +292,5 @@ foodSprite.setPosition(120, 30)
 
 ## GREAT JOB!
 You finished helping Codey! Call your instructor over to check your work!
-In the next part we are going to make a game for Codey (and you) to play!
+
 
