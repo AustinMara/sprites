@@ -1,4 +1,4 @@
-# Part 1: Blocks Scavenger Hunt!
+# CODEY IN THE HOUSE
 ### @explicitHints true
 
 ## Codey's Block Scavenger Hunt! @showdialog
@@ -144,11 +144,11 @@ controller.moveSprite(mySprite, 50, 0)
 mySprite.say(":)", 1000)
 ```
 
-# Part 2: Renaming variables
+
 ### @explicitHints true
 
 
-## Renaming sprites @showdialog
+## Part 2: Renaming sprites
 
 GREAT JOB! Looks like you found the blocks we needed but our job isn't done yet! Our code says "mySprite" but Codey has a name!
 
@@ -156,16 +156,17 @@ Let's learn how to change the name
 of a sprite. Follow these instructions to change the
 name of your sprite from **mySprite** to **codey**.
 
+--- 
+
+## Rename mySprite
 
 1.   In any of the red ovals with the name **mySprite**,
 select the **down arrow**. A menu appears.
-1.   In that menu, select **Rename variable...**.
-1.   In the dialog that appears, enter the new name, **codey**.
-1.   Select **OK** or press **Enter** on your keyboard to close the dialog.
+1.   Select **Rename variable...**.
+1.   Enter the new name, **codey**.
+1.   Select the big, green **OK** button to close the menu.
 
 Now, in every block where that sprite is used, the name has changed!
-
-In all future programs, make sure to give your sprites meaningful names!
 
 ![Renaming a variable in MakeCode](https://alex-kulcsar.github.io/introcs-tutorials/assets/images/S01.L01.01.P02.rename_variable.gif)
 
@@ -188,13 +189,19 @@ controller.moveSprite(mySprite, 50, 0)
 mySprite.say(":)", 1000)
 ```
 
-# Part 3: CODEY HUNGRY!
+---
+
+## Part 3: CODEY HUNGRY!
 
 Codey is hungry after watching you do all this work! Let's get him something to eat!
 
+---
+
+## Add a Food
 1.   Add another sprite to your project for some sort of food.
+
 1.   Give your new sprite an appropriate name.
-1.   Draw an image for your food sprite.
+
 1.   Change the sprite kind to **Food**.<br/>
 (Watch the animation to see how to do this.)
 1.   Place your food sprite in one of the empty corners of the screen.
@@ -203,3 +210,24 @@ Use a <br/>
 block.
 
 ![An animation showing how to change a sprite kind.](/static/courses/csintro/S01.L01.02.change_sprite_kind.gif)
+
+---
+
+## Part 4: CODEY BORED!
+
+Codey is jealous that you get to have sooo much fun coding! Let's add an enemy for him to play with!
+
+---
+
+## Add an enemy
+
+1.   Add another sprite to your project for cody to play with.
+
+1.   Give your new sprite a good name.
+
+1.   Change the sprite kind to **Enemy**.<br/>
+(Go back to the last step if you forgot!)
+1.   Place your enemy sprite in one of the empty corners of the screen.
+Use a <br/>
+``||variables(sprites): set [enemySprite] position to x [0] y [0]||`` <br/>
+block.
