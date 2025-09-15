@@ -185,7 +185,7 @@ codey.say(":)", 1000)
 
 ---
 
-## Part 3: CODEY HUNGRY!
+## CODEY HUNGRY!
 
 Codey is hungry after watching you do all this work! Let's get him something to eat!
 
@@ -207,7 +207,7 @@ block.
 
 ---
 
-## Part 4: CODEY BORED!
+## CODEY BORED!
 
 Codey is jealous that you get to have sooo much fun coding! Let's add an enemy for him to play with!
 
@@ -228,7 +228,7 @@ block.
 
 ---
 
-## Part 5: The Enemy isn't very fun!
+## THIS ENEMY STINKS!
 
 We added a friend for codey but it doesn't really do anything. Let's fix that! 
 
@@ -285,8 +285,11 @@ let enemySprite: Sprite = sprites.create(img`2`, SpriteKind.Enemy)
 enemySprite.setPosition(120, 90)
 let foodSprite: Sprite = sprites.create(img`3`, SpriteKind.Food)
 foodSprite.setPosition(120, 30)
-let projectile: Sprite = sprites.create(img`4`, SpriteKind.Projectile)
-projectile.setPosition(40, 90)
-game.showLongText("This is my story!", DialogLayout.Center)
 
 ```
+
+---
+
+## GREAT JOB!
+You finished helping Codey! Call your instructor over to check your work!
+In the next part we are going to make a game for Codey to play!
