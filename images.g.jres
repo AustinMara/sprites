@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAGAGAPD//w8AbwAA8GZmD/BgBgDw9m8P8AAAAPAWbw////8P8GZmD2/0Ri/wZm//T/ZGTwBv9k9v9EYPAG/2T0/2Rg/wZm//b/RPT/BmZg9P9vAv8PZvD///AA/wFm8P8AAAAPBmZg/wYAYA8P//DwBvAAAAAAAAAGAGAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Codey"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}

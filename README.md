@@ -14,7 +14,7 @@ OH NO! Codey deleted his programming and needs help putting it back together! Th
 block and add it to the  <br/>
 ``||loops(noclick):on start||`` <br/>
 container already in the workspace.
-1.   Select an image from the gallery (or draw one) that looks like Codey.
+1.   Select an image from the gallery (or draw one) that looks like Codey. (There is also a Codey in My Assets)
 
 ---
 
