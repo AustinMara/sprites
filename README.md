@@ -79,7 +79,7 @@ hint~
 
 ---
 
-**STOP! FIND YOUR INSTRUCTOR**
+## STOP! FIND YOUR INSTRUCTOR
 Call your instructor over to talk about these questions:
 -   What new items appear when you press the + button?
 -   What happens when you change the values of **vx** and **vy**?
@@ -231,3 +231,68 @@ Codey is jealous that you get to have sooo much fun coding! Let's add an enemy f
 Use a <br/>
 ``||variables(sprites): set [enemySprite] position to x [0] y [0]||`` <br/>
 block.
+
+---
+
+## Part 5: The Enemy isn't very fun!
+
+We added a friend for codey but it doesn't really do anything. Let's fix that! 
+
+---
+
+1.   From the **Sprites** drawer, add a <br/>
+``||sprites:set [myEnemy] follow [codey]||`` <br/>
+block.
+1.   Make the enemy chase the hero.
+    *   In this new block, make the first variable your enemy sprite.
+    *   In this new block, make the second variable your hero sprite.
+1.  Wait for the simulator to restart.
+1.  Move your hero sprite around the screen.
+1.  How does the enemy sprite react? 
+
+#### ~ tutorialhint
+
+```blocks
+let codey: Sprite = sprites.create(img`1`, SpriteKind.Player)
+codey.setPosition(40, 30)
+controller.moveSprite(codey)
+codey.setStayInScreen(true)
+let enemySprite: Sprite = sprites.create(img`2`, SpriteKind.Enemy)
+enemySprite.setPosition(120, 90)
+// @highlight
+enemySprite.follow(codey)
+let foodSprite: Sprite = sprites.create(img`3`, SpriteKind.Food)
+foodSprite.setPosition(120, 30)
+```
+
+## COME BACK CODEY!
+You probably noticed that Codey like to run away where we can't see him. If we lose Codey then the Coding Club will have to close!
+Let's fix this!
+
+---
+
+1.   From the **Sprites** drawer, add a <br/>
+``||sprites:set [mySprite] stay in screen <ON>||``<br/>
+block.
+1.   In this new block, click on the down arrow to change the
+name of the sprite to your hero sprite.
+1.   Wait for the simulator to restart.
+1.   Move the hero sprite around the screen. <br/>It stays on the screen now!
+
+#### ~ tutorialhint
+
+```blocks
+let codey: Sprite = sprites.create(img`1`, SpriteKind.Player)
+codey.setPosition(40, 30)
+controller.moveSprite(codey)
+// @highlight
+codey.setStayInScreen(true)
+let enemySprite: Sprite = sprites.create(img`2`, SpriteKind.Enemy)
+enemySprite.setPosition(120, 90)
+let foodSprite: Sprite = sprites.create(img`3`, SpriteKind.Food)
+foodSprite.setPosition(120, 30)
+let projectile: Sprite = sprites.create(img`4`, SpriteKind.Projectile)
+projectile.setPosition(40, 90)
+game.showLongText("This is my story!", DialogLayout.Center)
+
+```
