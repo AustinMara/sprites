@@ -1,4 +1,4 @@
- #Part 1: Blocks Scavenger Hunt!
+# Part 1: Blocks Scavenger Hunt!
 ### @explicitHints true
 
 ## Codey's Block Scavenger Hunt! @showdialog
@@ -144,7 +144,7 @@ controller.moveSprite(mySprite, 50, 0)
 mySprite.say(":)", 1000)
 ```
 
-#Part 2: Renaming variables
+# Part 2: Renaming variables
 ### @explicitHints true
 
 
@@ -156,11 +156,6 @@ Let's learn how to change the name
 of a sprite. Follow these instructions to change the
 name of your sprite from **mySprite** to **codey**.
 
-Let's change the name of your sprite to **codey**.
-
-**Note**: Scroll down to see a video of the following steps.
-
----
 
 1.   In any of the red ovals with the name **mySprite**,
 select the **down arrow**. A menu appears.
@@ -193,27 +188,18 @@ controller.moveSprite(mySprite, 50, 0)
 mySprite.say(":)", 1000)
 ```
 
+# Part 3: CODEY HUNGRY!
 
-> Open this page at [https://austinmara.github.io/sprites/](https://austinmara.github.io/sprites/)
+Codey is hungry after watching you do all this work! Let's get him something to eat!
 
-## Use as Extension
+1.   Add another sprite to your project for some sort of food.
+1.   Give your new sprite an appropriate name.
+1.   Draw an image for your food sprite.
+1.   Change the sprite kind to **Food**.<br/>
+(Watch the animation to see how to do this.)
+1.   Place your food sprite in one of the empty corners of the screen.
+Use a <br/>
+``||variables(sprites): set [foodSprite] position to x [0] y [0]||`` <br/>
+block.
 
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/austinmara/sprites** and import
-
-## Edit this project
-
-To edit this repository in MakeCode.
-
-* open [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/austinmara/sprites** and click import
-
-#### Metadata (used for search, rendering)
-
-* for PXT/arcade
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+![An animation showing how to change a sprite kind.](/static/courses/csintro/S01.L01.02.change_sprite_kind.gif)
